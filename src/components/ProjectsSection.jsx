@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "NYC Social Services Dashboard",
+    description: "I built an interactive data analytics dashboard that visualizes NYC 311 Social Services complaints. The project ingests real-world data from Azure Blob Storage, processes it using Python, and presents insights through a Streamlit web app..",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "SQL(MySQL/Azure SQL)", " Streamlit", "Pandas", "Azure Blob Storage"],
+    demoUrl: "https://nycsocialservices311-8xytyl5av2bxltnx99mrqh.streamlit.app/",
+    githubUrl: "https://github.com/Reba507/data_pipeline_nyc_social_services_",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Caption Craft",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "AI caption generator for Instagram, X and LinkedIn to enhance user engagement and automate customer support,deployed on AWS and Azure",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["JS", "AWS", "HTML","AWS", "Azure"],
+    demoUrl: "http://cloud-app-env.eba-tu3rjvwq.af-south-1.elasticbeanstalk.com/",
+    githubUrl: "https://github.com/Reba507/",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "RecipeShare FullStack Project",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "clean, modern recipe platform that allows users to create, browse, filter, update, and delete recipes. It demonstrates end-to-end development skills with a production-minded approach.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["ASP.NET Core 8 Web API (.NET 8)", "EF Core", "TypeScript","React","xUnit","Tailwind CSS"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Reba507"
           >
             Check My Github <ArrowRight size={16} />
           </a>
